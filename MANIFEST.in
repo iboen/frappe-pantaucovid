@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pantaucovid *.css
+recursive-include pantaucovid *.csv
+recursive-include pantaucovid *.html
+recursive-include pantaucovid *.ico
+recursive-include pantaucovid *.js
+recursive-include pantaucovid *.json
+recursive-include pantaucovid *.md
+recursive-include pantaucovid *.png
+recursive-include pantaucovid *.py
+recursive-include pantaucovid *.svg
+recursive-include pantaucovid *.txt
+recursive-exclude pantaucovid *.pyc
